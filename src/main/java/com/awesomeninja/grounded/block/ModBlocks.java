@@ -63,13 +63,13 @@ public class ModBlocks {
     );
 
     // Entrailite Crimson Nylium
-    public static final RegistryObject<Block> CRIMSON_ENTRAILITE_NYLIUM = registerBlock("crimson_entrailite_nylium", 
+    public static final RegistryObject<Block> ENTRAILITE_CRIMSON_NYLIUM = registerBlock("entrailite_crimson_nylium", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_NYLIUM)), 
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 
     // Entrailite Warped Nylium
-    public static final RegistryObject<Block> CRIMSON_WARPED_NYLIUM = registerBlock("crimson_warped_nylium", 
+    public static final RegistryObject<Block> ENTRAILITE_WARPED_NYLIUM = registerBlock("entrailite_warped_nylium", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_NYLIUM)), 
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );

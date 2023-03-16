@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "grounded:block/nether/entrailite/entrailite",
     "side": "grounded:block/nether/entrailite/entrailite_warped_nylium",
-    "top": "minecraft:block/crimson_nylium"
+    "top": "minecraft:block/warped_nylium"
   }
 }

@@ -31,7 +31,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ResourceLocation loam_warped_nylium = new ResourceLocation(Grounded.MODID, "block/nether/warped_loam/loam_warped_nylium");
         ResourceLocation warped_loam_bricks = new ResourceLocation(Grounded.MODID, "block/nether/warped_loam/warped_loam_bricks");
         simpleBlock(ModBlocks.WARPED_LOAM.get(), models().cubeAll(ModBlocks.WARPED_LOAM.get().getDescriptionId(), warped_loam));
-        simpleBlock(ModBlocks.LOAM_WARPED_NYLIUM.get(), models().cubeBottomTop(ModBlocks.WARPED_LOAM.get().getDescriptionId(), loam_warped_nylium, warped_loam, warped_nylium));
+        simpleBlock(ModBlocks.LOAM_WARPED_NYLIUM.get(), models().cubeBottomTop(ModBlocks.LOAM_WARPED_NYLIUM.get().getDescriptionId(), loam_warped_nylium, warped_loam, warped_nylium));
         simpleBlock(ModBlocks.WARPED_LOAM_BRICKS.get(), models().cubeAll(ModBlocks.WARPED_LOAM_BRICKS.get().getDescriptionId(), warped_loam_bricks));
 
         /* Entrailite */
@@ -43,10 +43,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ResourceLocation polished_entrailite = new ResourceLocation(Grounded.MODID, "block/nether/entrailite/polished_entrailite");
         axisBlock((RotatedPillarBlock) ModBlocks.ENTRAILITE.get(), entrailite, entrailite_top);
         simpleBlock(ModBlocks.ENTRAILITE_CRIMSON_NYLIUM.get(), models().cubeBottomTop(ModBlocks.ENTRAILITE_CRIMSON_NYLIUM.get().getDescriptionId(), entrailite_crimson_nylium, entrailite, crimson_nylium));
-        simpleBlock(ModBlocks.ENTRAILITE_WARPED_NYLIUM.get(), models().cubeBottomTop(ModBlocks.ENTRAILITE_WARPED_NYLIUM.get().getDescriptionId(), entrailite_warped_nylium, entrailite, crimson_nylium));
+        simpleBlock(ModBlocks.ENTRAILITE_WARPED_NYLIUM.get(), models().cubeBottomTop(ModBlocks.ENTRAILITE_WARPED_NYLIUM.get().getDescriptionId(), entrailite_warped_nylium, entrailite, warped_nylium));
         simpleBlock(ModBlocks.COBBLED_ENTRAILITE.get(), models().cubeAll(ModBlocks.COBBLED_ENTRAILITE.get().getDescriptionId(), cobbled_entrailite));
-        simpleBlock(ModBlocks.SMOOTH_ENTRAILITE.get(), models().cubeAll(ModBlocks.SMOOTH_ENTRAILITE.get().getDescriptionId(), entrailite));
-        simpleBlock(ModBlocks.LAYERED_ENTRAILITE.get(), models().cubeAll(ModBlocks.LAYERED_ENTRAILITE.get().getDescriptionId(), entrailite_top));
+        simpleBlock(ModBlocks.SMOOTH_ENTRAILITE.get(), models().cubeAll(ModBlocks.SMOOTH_ENTRAILITE.get().getDescriptionId(), entrailite_top));
+        simpleBlock(ModBlocks.LAYERED_ENTRAILITE.get(), models().cubeAll(ModBlocks.LAYERED_ENTRAILITE.get().getDescriptionId(), entrailite));
         simpleBlock(ModBlocks.POLISHED_ENTRAILITE.get(), models().cubeAll(ModBlocks.POLISHED_ENTRAILITE.get().getDescriptionId(), polished_entrailite));
     }
     

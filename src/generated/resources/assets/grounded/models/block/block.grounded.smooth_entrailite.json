@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "grounded:block/nether/entrailite/entrailite"
+    "all": "grounded:block/nether/entrailite/entrailite_top"
   }
 }

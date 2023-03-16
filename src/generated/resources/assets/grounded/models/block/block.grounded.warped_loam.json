@@ -1,9 +1,6 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "grounded:block/nether/warped_loam/warped_loam",
-    "bottom": "grounded:block/nether/warped_loam/warped_loam",
-    "side": "grounded:block/nether/warped_loam/loam_warped_nylium",
-    "top": "minecraft:block/warped_nylium"
+    "all": "grounded:block/nether/warped_loam/warped_loam"
   }
 }

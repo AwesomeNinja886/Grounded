@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -92,7 +91,7 @@ public class ModBlocks {
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 
-    // Layered Entrailite
+    // Polished Entrailite
     public static final RegistryObject<Block> POLISHED_ENTRAILITE = registerBlock("polished_entrailite", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)), 
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)

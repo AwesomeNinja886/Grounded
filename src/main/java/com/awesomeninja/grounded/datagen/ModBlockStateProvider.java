@@ -93,7 +93,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         getVariantBuilder(ModBlocks.POLISHED_ENTRAILITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/polished_entrailite"), exFileHelper)));
 
         /* Clay Grass Block */
-        simpleBlockItem(ModBlocks.CLAY_GRASS_BLOCK.get(), new BlockModelBuilder(new ResourceLocation(Grounded.MODID, "block/clay_grass_block"), exFileHelper).parent(new ModelFile.UncheckedModelFile(new ResourceLocation("block/grass_block"))).texture("bottom", clay).texture("side", clay));
+        simpleBlockItem(ModBlocks.CLAY_GRASS_BLOCK.get(), models().withExistingParent("clay_grass_block", new ResourceLocation("block/grass_block")).texture("bottom", clay).texture("side", clay));
         getVariantBuilder(ModBlocks.CLAY_GRASS_BLOCK.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/clay_grass_block"), exFileHelper)));
     }
     

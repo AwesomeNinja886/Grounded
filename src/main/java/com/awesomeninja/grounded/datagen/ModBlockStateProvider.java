@@ -45,7 +45,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ResourceLocation warped_loam_bricks = new ResourceLocation(Grounded.MODID, "block/nether/warped_loam/warped_loam_bricks");
         
         simpleBlockItem(ModBlocks.WARPED_LOAM.get(), models().cubeAll("warped_loam", warped_loam));
-        getVariantBuilder(ModBlocks.WARPED_LOAM.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/crimson_mud"), exFileHelper)));
+        getVariantBuilder(ModBlocks.WARPED_LOAM.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/warped_loam"), exFileHelper)));
 
         simpleBlockItem(ModBlocks.LOAM_WARPED_NYLIUM.get(), models().cubeBottomTop("loam_warped_nylium", loam_warped_nylium, warped_loam, warped_nylium));
         getVariantBuilder(ModBlocks.LOAM_WARPED_NYLIUM.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/loam_warped_nylium"), exFileHelper)));
@@ -59,6 +59,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ResourceLocation entrailite_crimson_nylium = new ResourceLocation(Grounded.MODID, "block/nether/entrailite/entrailite_crimson_nylium");
         ResourceLocation entrailite_warped_nylium = new ResourceLocation(Grounded.MODID, "block/nether/entrailite/entrailite_warped_nylium");
         ResourceLocation cobbled_entrailite = new ResourceLocation(Grounded.MODID, "block/nether/entrailite/cobbled_entrailite");
+        ResourceLocation smooth_entrailite = new ResourceLocation(Grounded.MODID, "block/nether/entrailite/smooth_entrailite");
         ResourceLocation polished_entrailite = new ResourceLocation(Grounded.MODID, "block/nether/entrailite/polished_entrailite");
 
         ModelFile entrailite_vertical = models().cubeColumn("entrailite", entrailite, entrailite_top);
@@ -83,17 +84,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockItem(ModBlocks.COBBLED_ENTRAILITE.get(), models().cubeAll("cobbled_entrailite", cobbled_entrailite));
         getVariantBuilder(ModBlocks.COBBLED_ENTRAILITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/cobbled_entrailite"), exFileHelper)));
 
-        simpleBlockItem(ModBlocks.SMOOTH_ENTRAILITE.get(), models().cubeAll("smooth_entrailite", entrailite_top));
+        simpleBlockItem(ModBlocks.SMOOTH_ENTRAILITE.get(), models().cubeAll("smooth_entrailite", smooth_entrailite));
         getVariantBuilder(ModBlocks.SMOOTH_ENTRAILITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/smooth_entrailite"), exFileHelper)));
-
-        simpleBlockItem(ModBlocks.LAYERED_ENTRAILITE.get(), models().cubeAll("layered_entrailite", entrailite));
-        getVariantBuilder(ModBlocks.LAYERED_ENTRAILITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/layered_entrailite"), exFileHelper)));
 
         simpleBlockItem(ModBlocks.POLISHED_ENTRAILITE.get(), models().cubeAll("polished_entrailite", polished_entrailite));
         getVariantBuilder(ModBlocks.POLISHED_ENTRAILITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/polished_entrailite"), exFileHelper)));
 
         /* Clay Grass Block */
-        simpleBlockItem(ModBlocks.CLAY_GRASS_BLOCK.get(), models().withExistingParent("clay_grass_block", new ResourceLocation("block/grass_block")).texture("bottom", clay).texture("side", clay));
+        simpleBlockItem(ModBlocks.CLAY_GRASS_BLOCK.get(), models().withExistingParent("clay_grass_block", new ResourceLocation("block/grass_block")).texture("bottom", clay).texture("side", clay).renderType("cutout"));
         getVariantBuilder(ModBlocks.CLAY_GRASS_BLOCK.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/clay_grass_block"), exFileHelper)));
     }
     

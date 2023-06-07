@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-07T16:01:40.7988498	Block States: grounded
+// 1.19.2	2023-06-07T16:07:47.0256012	Block States: grounded
 3e1024e342340ec68990c01e0915922bfc3b186d assets/grounded/blockstates/clay_grass_block.json
 d1637f5880af5f4719f0db80b1e089ce5c2b41e9 assets/grounded/blockstates/cobbled_entrailite.json
 a8c09d1f77c98cfab9d248c205d27b848682fde6 assets/grounded/blockstates/crimson_mud.json
@@ -12,7 +12,7 @@ ac6d433acd78d996ff0fe9d9e1464c7c11c81de9 assets/grounded/blockstates/polished_en
 c4c5ff55af75ca67e7a9e2806f6267d17bd6c83a assets/grounded/blockstates/smooth_entrailite.json
 a8c09d1f77c98cfab9d248c205d27b848682fde6 assets/grounded/blockstates/warped_loam.json
 9a6762f7886bdd37f3e8cb0b0a45ea6a1dfdfd7a assets/grounded/blockstates/warped_loam_bricks.json
-00272cdf2005961ac1e34e2c123db37d6b88cc4d assets/grounded/models/block/clay_grass_block.json
+dbe890722213a433a79054fabca13898d3b7e1f0 assets/grounded/models/block/clay_grass_block.json
 cf518570fd62110295de5182e9c025e92931ab1d assets/grounded/models/block/cobbled_entrailite.json
 d4d04bf8560a4efd8b862b17becddc22252cbabc assets/grounded/models/block/crimson_mud.json
 f0eeedf67ecd8e6c2c4e1abf013f13bb0be43213 assets/grounded/models/block/entrailite.json

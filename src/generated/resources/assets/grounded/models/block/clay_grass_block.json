@@ -1,5 +1,6 @@
 {
   "parent": "minecraft:block/grass_block",
+  "render_type": "minecraft:cutout",
   "textures": {
     "bottom": "minecraft:block/clay",
     "side": "minecraft:block/clay"

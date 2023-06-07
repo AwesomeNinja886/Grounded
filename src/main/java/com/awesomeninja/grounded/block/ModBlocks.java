@@ -85,12 +85,6 @@ public class ModBlocks {
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 
-    // Layered Entrailite
-    public static final RegistryObject<Block> LAYERED_ENTRAILITE = registerBlock("layered_entrailite", 
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)), 
-        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
-    );
-
     // Polished Entrailite
     public static final RegistryObject<Block> POLISHED_ENTRAILITE = registerBlock("polished_entrailite", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)), 

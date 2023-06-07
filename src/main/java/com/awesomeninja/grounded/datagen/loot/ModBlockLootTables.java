@@ -24,7 +24,6 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.ENTRAILITE_WARPED_NYLIUM.get());
         this.dropSelf(ModBlocks.COBBLED_ENTRAILITE.get());
         this.dropSelf(ModBlocks.SMOOTH_ENTRAILITE.get());
-        this.dropSelf(ModBlocks.LAYERED_ENTRAILITE.get());
         this.dropSelf(ModBlocks.POLISHED_ENTRAILITE.get());
 
         this.add(ModBlocks.CLAY_GRASS_BLOCK.get(), (p_124187_) -> {

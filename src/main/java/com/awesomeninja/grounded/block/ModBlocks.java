@@ -97,6 +97,13 @@ public class ModBlocks {
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 
+    /* OVERWORLD BLOCKS */
+
+    // Clay Grass Block
+    public static final RegistryObject<Block> CLAY_GRASS_BLOCK = registerBlock("clay_grass_block", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.CLAY)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
 
     // Creates a new Block with the id "grounded:id". This version of the method creates no item.
     public static final <T extends Block> RegistryObject<T> registerBlock(String id, Supplier<T> block) {

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "grounded:block/block.grounded.loam_warped_nylium"
+      "model": "grounded:block/loam_warped_nylium"
     }
   }
 }

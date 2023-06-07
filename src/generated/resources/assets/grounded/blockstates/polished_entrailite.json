@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "grounded:block/block.grounded.polished_entrailite"
+      "model": "grounded:block/polished_entrailite"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "grounded:block/block.grounded.polished_crimson_mud"
+      "model": "grounded:block/polished_crimson_mud"
     }
   }
 }

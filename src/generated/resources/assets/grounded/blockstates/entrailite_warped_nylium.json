@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "grounded:block/block.grounded.entrailite_warped_nylium"
+      "model": "grounded:block/entrailite_warped_nylium"
     }
   }
 }

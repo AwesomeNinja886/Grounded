@@ -16,6 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        /*
         withExistingParent(ModBlocks.CRIMSON_MUD.get().getDescriptionId(), new ResourceLocation(Grounded.MODID, "block/block.grounded.crimson_mud"));
         withExistingParent(ModBlocks.POLISHED_CRIMSON_MUD.get().getDescriptionId(), new ResourceLocation(Grounded.MODID,"block/block.grounded.polished_crimson_mud"));
 
@@ -30,6 +31,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent(ModBlocks.SMOOTH_ENTRAILITE.get().getDescriptionId(), new ResourceLocation(Grounded.MODID,"block/block.grounded.smooth_entrailite"));
         withExistingParent(ModBlocks.LAYERED_ENTRAILITE.get().getDescriptionId(), new ResourceLocation(Grounded.MODID,"block/block.grounded.layered_entrailite"));
         withExistingParent(ModBlocks.POLISHED_ENTRAILITE.get().getDescriptionId(), new ResourceLocation(Grounded.MODID,"block/block.grounded.polished_entrailite"));
+        withExistingParent(ModBlocks.CLAY_GRASS_BLOCK.get().getDescriptionId(), new ResourceLocation(Grounded.MODID, "block/block.grounded.clay_grass_block"));
+         */
     }
     
 }

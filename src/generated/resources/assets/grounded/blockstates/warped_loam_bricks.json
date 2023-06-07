@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "grounded:block/block.grounded.warped_loam_bricks"
+      "model": "grounded:block/warped_loam_bricks"
     }
   }
 }

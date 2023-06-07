@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "grounded:block/block.grounded.warped_loam"
+      "model": "grounded:block/crimson_mud"
     }
   }
 }

@@ -74,5 +74,11 @@ public class Grounded
         public static void registerBlockColors(RegisterColorHandlersEvent.Block event) {
             event.register((state, reader, pos, color) -> reader != null && pos != null ? BiomeColors.getAverageGrassColor(reader, pos) : -1, ModBlocks.CLAY_GRASS_BLOCK.get());
         }
+
+        //7cbd6b
+        @SubscribeEvent
+        public static void registerItemColors(RegisterColorHandlersEvent.Item event) {
+            event.register((color, items) -> 0xFF7CBD6B, ModBlocks.CLAY_GRASS_BLOCK.get().asItem());
+        }
     }
 }

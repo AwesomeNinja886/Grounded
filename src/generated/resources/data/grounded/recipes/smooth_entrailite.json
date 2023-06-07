@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "grounded:entrailite"
+  },
+  "result": "grounded:smooth_entrailite"
+}

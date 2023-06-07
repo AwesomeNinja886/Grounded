@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "grounded:crimson_mud",
+        "grounded:warped_loam",
+        "grounded:loam_warped_nylium",
+        "grounded:warped_loam_bricks",
+        "grounded:clay_grass_block"
+    ]
+}

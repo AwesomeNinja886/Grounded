@@ -1,3 +1,7 @@
-// 1.19.2	2023-03-15T17:09:46.2123625	Recipes
+// 1.19.2	2023-06-07T18:08:47.1837317	Recipes
+dc61e1185737c451399da029924cd64f9ef55f70 data/grounded/advancements/recipes/building_blocks/entrailite.json
 2731fe94f60f1fa6149ce2dffb19733ec9ec9182 data/grounded/advancements/recipes/building_blocks/polished_crimson_mud.json
+815db214266bd6999ffe03eed355a220aeaca664 data/grounded/advancements/recipes/building_blocks/smooth_entrailite.json
+292fbf9845d49f168cf3c5002b877479a5a40b05 data/grounded/recipes/entrailite.json
 24110ea907ea14d58a5e8662416694bc6ee2a0af data/grounded/recipes/polished_crimson_mud.json
+12b1636813ba74c69365805eaa44271be90ce3f0 data/grounded/recipes/smooth_entrailite.json

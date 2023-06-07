@@ -1,0 +1,17 @@
+{
+    "block.grounded.crimson_mud": "Crimson Mud",
+    "block.grounded.polished_crimson_mud": "Polished Crimson Mud",
+
+    "block.grounded.warped_loam": "Warped Loam",
+    "block.grounded.loam_warped_nylium": "Loam Warped Nylium",
+    "block.grounded.warped_loam_bricks": "Warped Loam Bricks",
+
+    "block.grounded.entrailite": "Entrailite",
+    "block.grounded.entrailite_crimson_nylium": "Entrailite Crimson Nylium",
+    "block.grounded.entrailite_warped_nylium": "Entrailite Warped Nylium",
+    "block.grounded.cobbled_entrailite": "Cobbled Entrailite",
+    "block.grounded.smooth_entrailite": "Smooth Entrailite",
+    "block.grounded.polished_entrailite": "Polished Entrailite",
+
+    "block.grounded.clay_grass_block": "Clay Grass Block"
+}

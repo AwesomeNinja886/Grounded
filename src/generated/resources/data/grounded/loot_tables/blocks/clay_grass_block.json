@@ -28,12 +28,17 @@
             },
             {
               "type": "minecraft:item",
-              "conditions": [
+              "functions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "add": false,
+                  "count": 4.0,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:clay"
+              "name": "minecraft:clay_ball"
             }
           ]
         }

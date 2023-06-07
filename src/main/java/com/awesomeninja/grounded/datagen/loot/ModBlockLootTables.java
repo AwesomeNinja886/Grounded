@@ -3,8 +3,10 @@ package com.awesomeninja.grounded.datagen.loot;
 import com.awesomeninja.grounded.block.ModBlocks;
 
 import net.minecraft.data.loot.BlockLoot;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockLootTables extends BlockLoot {
@@ -25,9 +27,11 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.COBBLED_ENTRAILITE.get());
         this.dropSelf(ModBlocks.SMOOTH_ENTRAILITE.get());
         this.dropSelf(ModBlocks.POLISHED_ENTRAILITE.get());
-
-        this.add(ModBlocks.CLAY_GRASS_BLOCK.get(), (p_124187_) -> {
-            return createSingleItemTableWithSilkTouch(p_124187_, Blocks.CLAY);
+        this.add(ModBlocks.ENTRAILITE.get(), (p_124187_) -> {
+            return createSingleItemTableWithSilkTouch(p_124187_, ModBlocks.COBBLED_ENTRAILITE.get());
+         });
+         this.add(ModBlocks.CLAY_GRASS_BLOCK.get(), (p_124187_) -> {
+            return createSingleItemTableWithSilkTouch(p_124187_, Items.CLAY_BALL, ConstantValue.exactly(4.0F));
          });
     }
 

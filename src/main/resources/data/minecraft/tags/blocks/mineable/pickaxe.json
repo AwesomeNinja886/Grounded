@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "grounded:polished_crimson_mud",
+        "grounded:entrailite",
+        "grounded:entrailite_crimson_nylium",
+        "grounded:entrailite_warped_nylium",
+        "grounded:cobbled_entrailite",
+        "grounded:smooth_entrailite",
+        "grounded:polished_entrailite"
+    ]
+}

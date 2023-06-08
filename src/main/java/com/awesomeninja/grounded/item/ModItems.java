@@ -9,7 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    // Create a Deferred Register to hold Items which will all be registered under the "examplemod" namespace
+    // Create a Deferred Register to hold Items which will all be registered under the "grounded" namespace
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Grounded.MODID);
 
     public static void register(IEventBus modEventBus) {

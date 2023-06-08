@@ -1,5 +1,6 @@
 package com.awesomeninja.grounded;
 
+import com.awesomeninja.grounded.biome.ModBiomes;
 import com.awesomeninja.grounded.block.ModBlocks;
 import com.awesomeninja.grounded.item.ModItems;
 import com.mojang.logging.LogUtils;
@@ -38,6 +39,9 @@ public class Grounded
         ModBlocks.register(modEventBus);
         // Register the Deferred Register to the mod event bus so items get registered
         ModItems.register(modEventBus);
+
+        // Register the Deferred Register to the mod event bus so biomes get registered
+        ModBiomes.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

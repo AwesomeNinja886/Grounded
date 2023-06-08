@@ -23,6 +23,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.POLISHED_NETHERRACK.get()), ModBlocks.SMOOTH_NETHERRACK.get().asItem(), 0.1f, 200).unlockedBy("has_polished_netherrack", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.POLISHED_NETHERRACK.get())).save(pFinishedRecipeConsumer);
+
         ShapedRecipeBuilder.shaped(ModBlocks.POLISHED_NETHERRACK.get(), 4)
             .define('#', Blocks.NETHERRACK)
             .pattern("##")

@@ -1,12 +1,20 @@
 {
     "replace": false,
     "values": [
+        "grounded:smooth_netherrack",
+        "grounded:polished_netherrack",
         "grounded:polished_crimson_mud",
         "grounded:entrailite",
         "grounded:entrailite_crimson_nylium",
         "grounded:entrailite_warped_nylium",
         "grounded:cobbled_entrailite",
         "grounded:smooth_entrailite",
-        "grounded:polished_entrailite"
+        "grounded:polished_entrailite",
+        "grounded:polished_stone",
+        "grounded:smooth_deepslate",
+        "grounded:granite_bricks",
+        "grounded:prismarine_tiles",
+        "grounded:prismarine_pillar",
+        "grounded:prismarine_bricks"
     ]
 }

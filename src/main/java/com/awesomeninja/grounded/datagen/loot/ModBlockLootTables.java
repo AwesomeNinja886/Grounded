@@ -5,13 +5,13 @@ import com.awesomeninja.grounded.block.ModBlocks;
 import net.minecraft.data.loot.BlockLoot;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModBlockLootTables extends BlockLoot {
     @Override
     protected void addTables() {
+        this.dropSelf(ModBlocks.SMOOTH_NETHERRACK.get());
         this.dropSelf(ModBlocks.POLISHED_NETHERRACK.get());
 
         this.dropSelf(ModBlocks.CRIMSON_MUD.get());

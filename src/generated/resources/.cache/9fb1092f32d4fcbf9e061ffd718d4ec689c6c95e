@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-07T22:16:43.7856475	Recipes
+// 1.19.2	2023-06-07T22:44:46.5535263	Recipes
 ad58e45e777fcaa37cad15b42051dd6beb49e934 data/grounded/advancements/recipes/building_blocks/dark_prismarine_bricks.json
 dc61e1185737c451399da029924cd64f9ef55f70 data/grounded/advancements/recipes/building_blocks/entrailite.json
 545b42da0b8739c1d0dc9b6ff3e130a96949f7bf data/grounded/advancements/recipes/building_blocks/granite_bricks.json
@@ -9,6 +9,7 @@ d7c1981d8506b92a5655c7f833d198210e758a32 data/grounded/advancements/recipes/buil
 49c85d0e2de23620697f1d0a80b3054178e987a0 data/grounded/advancements/recipes/building_blocks/prismarine_tiles.json
 b2d9c827215b0924ed225d32cd9831023fd704b4 data/grounded/advancements/recipes/building_blocks/smooth_deepslate.json
 815db214266bd6999ffe03eed355a220aeaca664 data/grounded/advancements/recipes/building_blocks/smooth_entrailite.json
+2b30b755fa948941861df0c58ed80f896268490f data/grounded/advancements/recipes/building_blocks/smooth_netherrack.json
 a59d4ead885de76ba5c80de564944fcdbe6995ab data/grounded/recipes/dark_prismarine_bricks.json
 292fbf9845d49f168cf3c5002b877479a5a40b05 data/grounded/recipes/entrailite.json
 abae8e1a0fe3201b183a22244d424347b0969b98 data/grounded/recipes/granite_bricks.json
@@ -19,3 +20,4 @@ abae8e1a0fe3201b183a22244d424347b0969b98 data/grounded/recipes/granite_bricks.js
 58be2587badf8c6d0f0924db8c698d767d1f222e data/grounded/recipes/prismarine_tiles.json
 4da9dc911f5769e1e30c713f5b35b8431ed88aa0 data/grounded/recipes/smooth_deepslate.json
 12b1636813ba74c69365805eaa44271be90ce3f0 data/grounded/recipes/smooth_entrailite.json
+45849a46c321061a582f0f410a2ce072c8125323 data/grounded/recipes/smooth_netherrack.json

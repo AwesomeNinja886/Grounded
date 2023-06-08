@@ -27,7 +27,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ResourceLocation clay = new ResourceLocation("block/clay");
 
         /* Netherrack */
+        ResourceLocation smooth_netherrack = new ResourceLocation(Grounded.MODID, "block/nether/netherrack/smooth_netherrack");
         ResourceLocation polished_netherrack = new ResourceLocation(Grounded.MODID, "block/nether/netherrack/polished_netherrack");
+
+        simpleBlockItem(ModBlocks.SMOOTH_NETHERRACK.get(), models().cubeAll("smooth_netherrack", smooth_netherrack));
+        getVariantBuilder(ModBlocks.SMOOTH_NETHERRACK.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/smooth_netherrack"), exFileHelper)));
 
         simpleBlockItem(ModBlocks.POLISHED_NETHERRACK.get(), models().cubeAll("polished_netherrack", polished_netherrack));
         getVariantBuilder(ModBlocks.POLISHED_NETHERRACK.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/polished_netherrack"), exFileHelper)));

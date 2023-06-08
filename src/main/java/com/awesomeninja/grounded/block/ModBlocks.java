@@ -23,6 +23,12 @@ public class ModBlocks {
 
     /* NETHER BLOCKS */
 
+    // Smooth Netherrack
+    public static final RegistryObject<Block> SMOOTH_NETHERRACK = registerBlock("smooth_netherrack", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+    
     // Polished Netherrack
     public static final RegistryObject<Block> POLISHED_NETHERRACK = registerBlock("polished_netherrack", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)), 

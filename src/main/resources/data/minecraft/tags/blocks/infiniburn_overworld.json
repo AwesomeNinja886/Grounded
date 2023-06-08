@@ -1,6 +1,8 @@
 {
     "replace": false,
     "values": [
+        "grounded:smooth_netherrack",
+        "grounded:polished_netherrack",
         "grounded:crimson_mud",
         "grounded:polished_crimson_mud",
         "grounded:warped_loam",

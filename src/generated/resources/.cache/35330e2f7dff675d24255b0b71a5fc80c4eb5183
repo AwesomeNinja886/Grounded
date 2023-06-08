@@ -1,4 +1,4 @@
-// 1.19.2	2023-06-07T22:25:38.9781215	Block States: grounded
+// 1.19.2	2023-06-07T22:44:46.5505397	Block States: grounded
 3e1024e342340ec68990c01e0915922bfc3b186d assets/grounded/blockstates/clay_grass_block.json
 d1637f5880af5f4719f0db80b1e089ce5c2b41e9 assets/grounded/blockstates/cobbled_entrailite.json
 a8c09d1f77c98cfab9d248c205d27b848682fde6 assets/grounded/blockstates/crimson_mud.json
@@ -16,6 +16,7 @@ a5053667972c192383cfe94814b4fa22971856b8 assets/grounded/blockstates/polished_ne
 94b5e6642a2c806788fa358215c3673e806bd08e assets/grounded/blockstates/prismarine_tiles.json
 ea4c355b48a2b0e6860e89af06ac5c7ed21ad649 assets/grounded/blockstates/smooth_deepslate.json
 c4c5ff55af75ca67e7a9e2806f6267d17bd6c83a assets/grounded/blockstates/smooth_entrailite.json
+4eba86c1285fcb9ba4094e2956bf69e88916f507 assets/grounded/blockstates/smooth_netherrack.json
 52fff976d0b3835446652106affe6e07d2db2e98 assets/grounded/blockstates/warped_loam.json
 9a6762f7886bdd37f3e8cb0b0a45ea6a1dfdfd7a assets/grounded/blockstates/warped_loam_bricks.json
 dbe890722213a433a79054fabca13898d3b7e1f0 assets/grounded/models/block/clay_grass_block.json
@@ -37,6 +38,7 @@ d0c5c1c29e244f887d34d4b0a2e255052a91b1a5 assets/grounded/models/block/prismarine
 49d8cb7245b6b392e663a014e60042084202f5bd assets/grounded/models/block/prismarine_tiles.json
 0ac696a22280f29adac8cbfcbf35a06eddb18300 assets/grounded/models/block/smooth_deepslate.json
 f83099fb69a45cb0e269bac6914cea0f8e8a3ff2 assets/grounded/models/block/smooth_entrailite.json
+caabd6c8490c1506219037b51870558b6f4e0ab1 assets/grounded/models/block/smooth_netherrack.json
 5e0178b31fe7ac737758cf31650373247946eb8b assets/grounded/models/block/warped_loam.json
 4362c5bced0e51c0da59b416582b6a51e141f823 assets/grounded/models/block/warped_loam_bricks.json
 cfd5436b7dbc389b2723530b9d718ae955ae9d84 assets/grounded/models/item/clay_grass_block.json
@@ -56,5 +58,6 @@ c354abd7bc2d65a6a2ab549dd37e5bd0deb593fc assets/grounded/models/item/prismarine_
 869447045e5988d201b0451a0c2a20f1a7938c6b assets/grounded/models/item/prismarine_tiles.json
 7d1d6f53cfd74ea68e96eb1788893ff7b5315c64 assets/grounded/models/item/smooth_deepslate.json
 b02912267293d5fa98db9664076c05789635d10a assets/grounded/models/item/smooth_entrailite.json
+26c49d7d41e1bf72d1d05940c963e43d838ceb49 assets/grounded/models/item/smooth_netherrack.json
 170ddbc72aca65654ff393b46cbfd7598ce0c953 assets/grounded/models/item/warped_loam.json
 d7b00065756f8fa3550e38d667bf8b214913ecaf assets/grounded/models/item/warped_loam_bricks.json

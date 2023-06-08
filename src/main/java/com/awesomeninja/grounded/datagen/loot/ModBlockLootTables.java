@@ -38,7 +38,9 @@ public class ModBlockLootTables extends BlockLoot {
         this.dropSelf(ModBlocks.POLISHED_STONE.get());
 
         this.dropSelf(ModBlocks.SMOOTH_DEEPSLATE.get());
-
+        
+        this.dropSelf(ModBlocks.COBBLED_GRANITE.get());
+        this.dropSelf(ModBlocks.SMOOTH_GRANITE.get());
         this.dropSelf(ModBlocks.GRANITE_BRICKS.get());
 
         this.dropSelf(ModBlocks.PRISMARINE_TILES.get());

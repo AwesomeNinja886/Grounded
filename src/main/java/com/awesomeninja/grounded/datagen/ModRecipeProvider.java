@@ -51,6 +51,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Blocks.DEEPSLATE), ModBlocks.SMOOTH_DEEPSLATE.get().asItem(), 0.1f, 200).unlockedBy("has_deepslate", InventoryChangeTrigger.TriggerInstance.hasItems(Blocks.DEEPSLATE)).save(pFinishedRecipeConsumer);
 
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModBlocks.COBBLED_GRANITE.get()), Blocks.GRANITE.asItem(), 0.1f, 200).unlockedBy("has_cobbled_granite", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.COBBLED_GRANITE.get())).save(pFinishedRecipeConsumer);
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Blocks.GRANITE), ModBlocks.SMOOTH_GRANITE.get().asItem(), 0.1f, 200).unlockedBy("has_granite", InventoryChangeTrigger.TriggerInstance.hasItems(Blocks.GRANITE)).save(pFinishedRecipeConsumer);
+        
         ShapedRecipeBuilder.shaped(ModBlocks.GRANITE_BRICKS.get(), 4)
             .define('#', Blocks.POLISHED_GRANITE)
             .pattern("##")

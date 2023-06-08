@@ -123,6 +123,18 @@ public class ModBlocks {
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 
+    // Cobbled Granite
+    public static final RegistryObject<Block> COBBLED_GRANITE = registerBlock("cobbled_granite", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRANITE)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Smooth Granite
+    public static final RegistryObject<Block> SMOOTH_GRANITE = registerBlock("smooth_granite", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
     // Granite Bricks
     public static final RegistryObject<Block> GRANITE_BRICKS = registerBlock("granite_bricks", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)), 

@@ -113,7 +113,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         getVariantBuilder(ModBlocks.SMOOTH_DEEPSLATE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/smooth_deepslate"), exFileHelper)));
 
         /* Granite */
+        ResourceLocation cobbled_granite = new ResourceLocation(Grounded.MODID, "block/overworld/granite/cobbled_granite");
+        ResourceLocation smooth_granite = new ResourceLocation(Grounded.MODID, "block/overworld/granite/smooth_granite");
         ResourceLocation granite_bricks = new ResourceLocation(Grounded.MODID, "block/overworld/granite/granite_bricks");
+
+        simpleBlockItem(ModBlocks.COBBLED_GRANITE.get(), models().cubeAll("cobbled_granite", cobbled_granite));
+        getVariantBuilder(ModBlocks.COBBLED_GRANITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/cobbled_granite"), exFileHelper)));
+        
+        simpleBlockItem(ModBlocks.SMOOTH_GRANITE.get(), models().cubeAll("smooth_granite", smooth_granite));
+        getVariantBuilder(ModBlocks.SMOOTH_GRANITE.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/smooth_granite"), exFileHelper)));
 
         simpleBlockItem(ModBlocks.GRANITE_BRICKS.get(), models().cubeAll("granite_bricks", granite_bricks));
         getVariantBuilder(ModBlocks.GRANITE_BRICKS.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/granite_bricks"), exFileHelper)));

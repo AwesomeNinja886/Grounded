@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "grounded:block/overworld/prismarine/prismarine_pillar_top",
+    "side": "grounded:block/overworld/prismarine/prismarine_pillar_side"
+  }
+}

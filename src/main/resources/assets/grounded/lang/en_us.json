@@ -1,4 +1,6 @@
 {
+    "block.grounded.polished_netherrack": "Polished Netherrack",
+
     "block.grounded.crimson_mud": "Crimson Mud",
     "block.grounded.polished_crimson_mud": "Polished Crimson Mud",
 
@@ -13,5 +15,15 @@
     "block.grounded.smooth_entrailite": "Smooth Entrailite",
     "block.grounded.polished_entrailite": "Polished Entrailite",
 
-    "block.grounded.clay_grass_block": "Clay Grass Block"
+    "block.grounded.clay_grass_block": "Clay Grass Block",
+
+    "block.grounded.polished_stone": "Polished Stone",
+
+    "block.grounded.smooth_deepslate": "Smooth Deepslate",
+
+    "block.grounded.granite_bricks": "Granite Bricks",
+
+    "block.grounded.prismarine_tiles": "Prismarine Tiles",
+    "block.grounded.prismarine_pillar": "Prismarine Pillar",
+    "block.grounded.dark_prismarine_bricks": "Dark Prismarine Bricks"
 }

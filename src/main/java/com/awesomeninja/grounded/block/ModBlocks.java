@@ -107,7 +107,7 @@ public class ModBlocks {
 
     // Polished Stone
     public static final RegistryObject<Block> POLISHED_STONE = registerBlock("polished_stone", 
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)), 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)), 
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 

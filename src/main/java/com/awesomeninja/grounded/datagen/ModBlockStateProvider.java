@@ -119,8 +119,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         ResourceLocation prismarine_pillar_side = new ResourceLocation(Grounded.MODID, "block/overworld/prismarine/prismarine_pillar_side");
         ResourceLocation prismarine_pillar_top = new ResourceLocation(Grounded.MODID, "block/overworld/prismarine/prismarine_pillar_top");
 
-        ModelFile prismarine_pillar_vertical = models().cubeColumn("entrailite", prismarine_pillar_side, prismarine_pillar_top);
-        ModelFile prismarine_pillar_horizontal = models().cubeColumnHorizontal("entrailite_horizontal", prismarine_pillar_side, prismarine_pillar_top);
+        ModelFile prismarine_pillar_vertical = models().cubeColumn("prismarine_pillar", prismarine_pillar_side, prismarine_pillar_top);
+        ModelFile prismarine_pillar_horizontal = models().cubeColumnHorizontal("prismarine_pillar_horizontal", prismarine_pillar_side, prismarine_pillar_top);
 
         simpleBlockItem(ModBlocks.PRISMARINE_TILES.get(), models().cubeAll("prismarine_tiles", prismarine_tiles));
         getVariantBuilder(ModBlocks.PRISMARINE_TILES.get()).partialState().setModels(new ConfiguredModel(new ModelFile.ExistingModelFile(new ResourceLocation(Grounded.MODID, "block/prismarine_tiles"), exFileHelper)));

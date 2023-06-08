@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "#": {
-      "item": "grounded:crimson_mud"
+      "item": "minecraft:polished_granite"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "grounded:polished_crimson_mud"
+    "item": "grounded:granite_bricks"
   }
 }

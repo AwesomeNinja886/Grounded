@@ -23,6 +23,12 @@ public class ModBlocks {
 
     /* NETHER BLOCKS */
 
+    // Polished Netherrack
+    public static final RegistryObject<Block> POLISHED_NETHERRACK = registerBlock("polished_netherrack", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
     // Crimson Mud
     public static final RegistryObject<Block> CRIMSON_MUD = registerBlock("crimson_mud", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.MUD)), 
@@ -96,6 +102,42 @@ public class ModBlocks {
     // Clay Grass Block
     public static final RegistryObject<Block> CLAY_GRASS_BLOCK = registerBlock("clay_grass_block", 
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.CLAY)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Polished Stone
+    public static final RegistryObject<Block> POLISHED_STONE = registerBlock("polished_stone", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Smooth Deepslate
+    public static final RegistryObject<Block> SMOOTH_DEEPSLATE = registerBlock("smooth_deepslate", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_DEEPSLATE)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Granite Bricks
+    public static final RegistryObject<Block> GRANITE_BRICKS = registerBlock("granite_bricks", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.POLISHED_GRANITE)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Prismarine Tiles
+    public static final RegistryObject<Block> PRISMARINE_TILES = registerBlock("prismarine_tiles", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Prismarine Pillar
+    public static final RegistryObject<Block> PRISMARINE_PILLAR = registerBlock("prismarine_pillar", 
+        () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PRISMARINE_BRICKS)), 
+        new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
+
+    // Dark Prismarine Bricks
+    public static final RegistryObject<Block> DARK_PRISMARINE_BRICKS = registerBlock("dark_prismarine_bricks", 
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_PRISMARINE)), 
         new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
     );
 
